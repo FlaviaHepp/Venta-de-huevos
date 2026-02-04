@@ -1,4 +1,4 @@
-# Predicción de ventas de huevos mediante análisis de series temporales
+#Predicción de ventas de huevos mediante análisis de series temporales
 
 Este proyecto analiza y modela **30 años de ventas diarias de huevos** de una tienda local en Sri Lanka, con el objetivo de **comprender patrones históricos y predecir las ventas para el año 2022**.
 
