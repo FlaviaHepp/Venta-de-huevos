@@ -112,7 +112,7 @@ Las visualizaciones ayudan a interpretar **tendencia, estacionalidad y ruido**.
 - **matplotlib, `seaborn**`
 - **statsmodels**
 - **scikit-learn**
-- **ydata-profiling**
+- `**ydata-profiling**`
 
 ---
 
