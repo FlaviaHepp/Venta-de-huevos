@@ -1,4 +1,4 @@
-#  Predicción de ventas de huevos mediante análisis de series temporales
+#  🥚Predicción de ventas de huevos mediante análisis de series temporales
 
 Este proyecto analiza y modela **30 años de ventas diarias de huevos** de una tienda local en Sri Lanka, con el objetivo de **comprender patrones históricos y predecir las ventas para el año 2022**.
 
@@ -6,7 +6,7 @@ El enfoque combina **análisis exploratorio de datos (EDA)**, **estadística de 
 
 ---
 
-## 🥚 Contexto del problema
+## 🌏Contexto del problema
 
 Las ventas de productos alimenticios suelen estar influenciadas por:
 - estacionalidad
@@ -18,7 +18,7 @@ Este dataset presenta un caso realista de **forecasting**, ideal para estudiar c
 
 ---
 
-## 🎯 Objetivos
+## 🎯Objetivos
 
 - Analizar la evolución histórica de las ventas diarias de huevos
 - Detectar tendencia, estacionalidad y fluctuaciones aleatorias
@@ -28,7 +28,7 @@ Este dataset presenta un caso realista de **forecasting**, ideal para estudiar c
 
 ---
 
-## 📊 Dataset
+## 📊Dataset
 
 El conjunto de datos fue creado originalmente para una competición de forecasting y se basa en datos simulados inspirados en un caso real.
 
@@ -42,7 +42,7 @@ El conjunto de datos fue creado originalmente para una competición de forecasti
 
 ---
 
-## 🧹 Preparación de datos
+## 🧹Preparación de datos
 
 - Conversión de la columna `Date` a formato datetime
 - Extracción de variables temporales:
@@ -54,7 +54,7 @@ El conjunto de datos fue creado originalmente para una competición de forecasti
 
 ---
 
-## 🔍 Análisis exploratorio (EDA)
+## 🔍Análisis exploratorio (EDA)
 
 ### Análisis temporal
 - Visualización de ventas diarias a lo largo del tiempo
@@ -73,7 +73,7 @@ Estos análisis permiten definir la estructura del modelo ARIMA.
 
 ---
 
-## 📉 Estacionariedad
+## 📉Estacionariedad
 
 - Prueba de Dickey-Fuller aumentada (ADF)
 - Evaluación de:
@@ -84,7 +84,7 @@ Estos análisis permiten definir la estructura del modelo ARIMA.
 
 ---
 
-## 🤖 Modelado
+## 🤖Modelado
 
 - **Tipo de problema:** Forecasting (series temporales)
 - **Modelo:** ARIMA
@@ -94,7 +94,7 @@ El modelo se entrena sobre los datos históricos y se prepara para generar predi
 
 ---
 
-## 📈 Visualizaciones
+## 📈Visualizaciones
 
 - Serie temporal de ventas
 - Boxplot de distribución de ventas
@@ -105,18 +105,18 @@ Las visualizaciones ayudan a interpretar **tendencia, estacionalidad y ruido**.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️Tecnologías utilizadas
 
 - **Python**
 - **pandas, numpy**
-- **matplotlib, seaborn**
+- **matplotlib, `seaborn**`
 - **statsmodels**
 - **scikit-learn**
 - **ydata-profiling**
 
 ---
 
-## 📂 Estructura del repositorio
+## 📂Estructura del repositorio
 
 ├── train_egg_sales.csv
 ├── test.csv
@@ -127,7 +127,7 @@ Las visualizaciones ayudan a interpretar **tendencia, estacionalidad y ruido**.
 
 ---
 
-## 🚀 Próximos pasos
+## 🚀Próximos pasos
 
 - Ajuste fino de parámetros ARIMA
 - Validación temporal (train / test split por fecha)
@@ -141,4 +141,4 @@ Las visualizaciones ayudan a interpretar **tendencia, estacionalidad y ruido**.
 ## 👤 Autor
 
 **Flavia Hepp**  
-Data Scientist / Time Series en formación  
+Data Scientist en formación / Time Series en formación  
